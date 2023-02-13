@@ -2,6 +2,7 @@
 ```
 这个版本是dnspod的，有别的需求fork重新编译
 docker run -it \
+  --restart=always \
   -e DOMAINS='{"example.com": {"@": ["CM","CU","CT"]}}' \
   -e KEY='o1zrmHAF' \
   -e SECRETID='AgMpEn8GE1bx63rUujMmzDJ360lKgnf' \
