@@ -1,3 +1,4 @@
+FORK FROM [ddgth/cf2dns](https://github.com/ddgth/cf2dns)
 ### 使用方法
 ```
 这个版本是dnspod的，有别的需求fork重新编译
